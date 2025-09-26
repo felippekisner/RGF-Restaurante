@@ -1,106 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <style> 
-    body{
-background-image: url(f14ea531e015e8f893f16b49d879dd49.jpeg) ;
-background-repeat: no-repeat;
-background-size: 100%;
- }
-h1 {
-      text-align: center;
-      color: #ffdd57;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avaliações RGF Turismo</title>
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #0d47a1, #1abc9c);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.7;
+      color: #333;
+      padding: 50px 20px;
     }
 
-    h2 {
-      color: #4cafef;
-    }
-
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    li {
-      margin-bottom: 5px;
-      font-weight: bold;
-    }
-
-    img {
-      width: 100%;
-      max-width: 300px;
-      border-radius: 10px;
-      margin-top: 10px;
-    }
-    
-
-    a {
-      color: #ffdd57;
+    .voltar {
+      color: #fff;
       text-decoration: none;
+      font-size: 3em;
+      position: absolute;
+      top: 20px;
+      left: 25px;
+      transition: transform 0.3s, color 0.3s;
+    }
+    .voltar:hover {
+      color: #ffdd57;
+      transform: scale(1.2);
     }
 
-    a:hover {
-      text-decoration: underline;
+    h1 {
+      text-align: center;
+      color: #fff;
+      font-size: 3.5em;
+      font-weight: 800;
+      letter-spacing: 2px;
+      margin-bottom: 60px;
+      text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
     }
-
-   
-    .destinos {
-      display: flex;
-      flex-wrap: wrap;  
-      justify-content: center;
-      gap: 30px;
-      margin-top: 30px;
-    }
-
 
     .destino {
-        color: white;
-      background: rgba(0, 0, 0, 0.6);
-      border-radius: 12px;
-      padding: 15px;
-      text-align: center;
-      width: 96%;
-      min-width: 280px;
+      max-width: 1100px;
+      margin: 0 auto;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
     }
-    </style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AVALIAÇÕES GRF</title>  
+
+    .avaliacao {
+      background: #fafafa;
+      border-radius: 10px;
+      border-left: 6px solid #1abc9c;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      padding: 20px 25px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .avaliacao:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+    }
+
+    .avaliacao strong {
+      display: block;
+      font-size: 1.3em;
+      color: #0d47a1;
+      margin-bottom: 10px;
+    }
+
+    .avaliacao p {
+      margin: 0;
+      font-size: 1.05em;
+      color: #444;
+    }
+  </style>
 </head>
 <body>
-<a href="index.html" class="voltar" style="font-size: xx-large;">←</a>
-    <h1>AVALIAÇÕES</h1>
-    <br><br>
-<div class="destino">
-    <ul>Avaliação de João – Nota: 5/5
+  <a href="index.html" class="voltar">←</a>
+  <h1>Avaliações</h1>
 
-"Adorei minha experiência no site! Eu e minha esposa estávamos procurando uma viagem para Tóquio e o site foi super fácil de usar. A faixa de preço estava clara e conseguimos encontrar uma opção que se encaixava no nosso orçamento (em torno de 6000 reais). A viagem foi incrível, e o processo de reserva foi bem simples. A única coisa que gostaria que fosse mais detalhada no site é o que exatamente está incluso no pacote, mas no geral, super recomendo para quem quer viajar para destinos como Tóquio sem dor de cabeça!"</ul>
-<br>
-    <ul>Avaliação de Laura – Nota: 3/5
+  <div class="destino">
+    <div class="avaliacao">
+      <strong>Avaliação de João – Nota: 5/5</strong>
+      <p>"Adorei minha experiência no site! Eu e minha esposa estávamos procurando uma viagem para Tóquio e o site foi super fácil de usar. Em poucos cliques já tínhamos reservado nossa viagem e tudo deu certo. Recomendo!"</p>
+    </div>
 
-"Tentei comprar uma viagem para Paris, mas achei que os preços estavam um pouco altos, considerando o que estava incluído no pacote. A faixa de preço variava entre 4000 a 8000 reais, mas quando cheguei na parte do pagamento, percebi que o valor final foi bem próximo do topo da faixa. Eu esperava que o preço fosse mais transparente. A interface do site é boa, e o suporte ao cliente foi bem atencioso quando eu tive dúvidas, mas acho que deveria ter mais detalhes sobre o que o pacote inclui. Tive que ligar para confirmar se a hospedagem estava inclusa, o que foi um pouco frustrante."</ul>
-<br>
-    <ul>Avaliação de Marcos – Nota: 4/5
+    <div class="avaliacao">
+      <strong>Avaliação de Laura – Nota: 3/5</strong>
+      <p>"Tentei comprar uma viagem para Paris, mas achei que os preços estavam um pouco altos. O site funciona bem, mas poderia oferecer promoções melhores."</p>
+    </div>
 
-"Fui em busca de uma viagem para Roma e gostei bastante do processo de navegação no site. A faixa de preço de 3000 a 4000 reais era bem acessível, e a cidade é maravilhosa. O único ponto negativo foi que algumas informações sobre as datas de disponibilidade não estavam muito claras. Acabei escolhendo uma data que não estava disponível e precisei ajustar minha viagem. Tirando isso, a experiência foi muito boa, e eu realmente apreciei a facilidade de planejar minha viagem com o site."</ul>
-<br>
-    <ul>Avaliação de Fernanda – Nota: 2/5
+    <div class="avaliacao">
+      <strong>Avaliação de Marcos – Nota: 4/5</strong>
+      <p>"Fui em busca de uma viagem para Roma e gostei bastante do processo de navegação. O site é intuitivo e consegui finalizar minha compra sem dificuldades. Só achei que poderia ter mais opções de pacotes."</p>
+    </div>
 
-"Não gostei muito da minha experiência com o site. Eu estava querendo viajar para Quebec, mas os preços entre 2500 a 5000 reais não correspondiam ao que eu esperava. O site oferece opções, mas as informações sobre o que estava incluso eram muito vagas. Tive que ligar várias vezes para entender o que exatamente estava no pacote e, no fim, a viagem não foi tão boa quanto eu esperava. O atendimento ao cliente foi ok, mas fiquei frustrada com a falta de clareza nos preços e pacotes."</ul>
-<br>
-    <ul>Avaliação de Rodrigo – Nota: 4.5/5
+    <div class="avaliacao">
+      <strong>Avaliação de Fernanda – Nota: 2/5</strong>
+      <p>"Não gostei muito da minha experiência com o site. Eu estava querendo viajar para Quebec, mas tive problemas com o pagamento e não consegui resolver com o suporte."</p>
+    </div>
 
-"Comprei uma viagem para New York no final de semana e a experiência foi excelente. O preço estava entre 2000 e 3000 reais, e consegui encontrar uma promoção que fez o preço ainda mais acessível. O processo de reserva foi rápido e sem complicação. Eu só gostaria que o site tivesse mais detalhes sobre as opções de acomodação, pois não ficou claro se a hospedagem era boa ou não. No entanto, a viagem foi incrível e eu certamente usarei o site para futuras viagens."</ul>
-<br>
-    <ul>Avaliação de Ricardo – Nota: 2.5/5
+    <div class="avaliacao">
+      <strong>Avaliação de Rodrigo – Nota: 4.5/5</strong>
+      <p>"Comprei uma viagem para New York no final de semana e a experiência foi excelente. O site é rápido, organizado e tive todas as informações necessárias para a minha viagem. Voltarei a usar."</p>
+    </div>
 
-"Eu estava super empolgado para viajar para Paris, mas fiquei decepcionado com o site. O preço dos pacotes parecia bom (entre 4000 a 8000 reais), mas quando fui avançar no pagamento, percebi que o valor final estava muito acima do que eu esperava, por conta de taxas extras que não estavam claras desde o começo. Faltou mais transparência, o que deixou a experiência um pouco frustrante. Também senti falta de mais informações sobre o que estava incluso no pacote. Fiquei com a sensação de que não foi uma viagem tão vantajosa assim, considerando o que paguei."</ul>
-<br>
-    <ul>Avaliação de robervaldo – Nota: 4.5/5
-"EU comprei o pacote de viagem para tokyo por que eu sempre quis conhecer um pouco mais sobre a cultura oriental eu sinto que eu conheci diversos habitos da cultura oriental de tokyo por um preço meio cheio (entre 3500 e 7500) mas eu senti que faltou aluguma coisa nessa experiência quem sabe talvez eu faça outra viagem para tokyo para descobrir o que faltou na anterior. " </ul>
-<br>
-    <ul>Avaliação de jubileu – Nota: 5/5
-"Eu adorei a viagem que eu tive para paris, eu sempre ouvi falar bem de paris a cidade do amor mas se não fosse a agência de viagem RGF viagens eu não teria tido essa experiência maravilhosa pela cidade de paris pelo preço(entre 4000 e 8000)" </ul>
-</div>
+    <div class="avaliacao">
+      <strong>Avaliação de Ricardo – Nota: 2.5/5</strong>
+      <p>"Eu estava super empolgado para viajar para Paris, mas fiquei decepcionado com o site. O layout é bonito, mas a experiência de compra não foi boa. Tive problemas no checkout e não recebi retorno do suporte."</p>
+    </div>
+
+    <div class="avaliacao">
+      <strong>Avaliação de Roberval – Nota: 4.5/5</strong>
+      <p>"Comprei o pacote de viagem para Tóquio porque sempre quis conhecer a cultura oriental. O site me ajudou muito e as informações eram claras. Recomendo bastante."</p>
+    </div>
+
+    <div class="avaliacao">
+      <strong>Avaliação de Jubileu – Nota: 5/5</strong>
+      <p>"Eu adorei a viagem que tive para Paris, sempre ouvi falar bem da cidade do amor e o site ajudou muito no processo de escolha. A compra foi rápida e tudo deu certo na minha viagem."</p>
+    </div>
+  </div>
 </body>
 </html>
